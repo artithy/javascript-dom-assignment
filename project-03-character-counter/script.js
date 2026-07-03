@@ -6,10 +6,8 @@ text.addEventListener("input", function () {
 
     const value = text.value;
 
-    // Character Count
     charCount.textContent = value.length;
 
-    // Word Count
     const words = value.trim();
 
     if (words === "") {
